@@ -1,13 +1,10 @@
-Definir una función inversa() que calcule la inversión de una cadena. Por ejemplo la cadena "estoy probando" debería devolver la cadena "odnaborp yotse"
-#! /usr/bin/env python
-# -*- coding: utf-8 -*-
+Calcular el salario semanal de un empleado 
 
-def inversa (cadena):
-    invertida = ""
-    cont = len(cadena)
-    indice = -1
-    while cont >= 1:
-        invertida += cadena[indice]
-        indice = indice + (-1)
-        cont -= 1
-    return invertida
+Proceso Salario
+Escribir "Ingresar horas trabajadas por semana":
+Leer HT; //ingresa por teclado las horas_trabajadas_semana
+Escribir "Ingresar el salario Bs/hora";
+Leer SH; //ingresa por teclado el salario Bs/hora
+Salario<-HT*SH; //operador
+Escribir "El Salario Semanal ganado es: ", " ", Salario, " Bs";
+FinProceso
