@@ -1,5 +1,5 @@
 Determinar el mayor de dos números ‘a’ y ‘b’
-//Algoritmo que determina el mayor de dos números 'a' y 'b'. Desarrollado por RPC
+
 Proceso mayor_que //proceso mayor_que
 Escribir "Algoritmo para calcular cual numero de a y b es mayor";
 Escribir "Introduzca el valor de a: " //muestra en pantalla la
