@@ -3,8 +3,8 @@ Calcular el salario semanal de un empleado
 Proceso Salario
 Escribir "Ingresar horas trabajadas por semana":
 Leer HT; //ingresa por teclado las horas_trabajadas_semana
-Escribir "Ingresar el salario Bs/hora";
-Leer SH; //ingresa por teclado el salario Bs/hora
+Escribir "Ingresar el salario Q /hora";
+Leer SH; //ingresa por teclado el salario Q /hora
 Salario<-HT*SH; //operador
-Escribir "El Salario Semanal ganado es: ", " ", Salario, " Bs";
+Escribir "El Salario Semanal ganado es: ", "Q ", Salario, " ";
 FinProceso
