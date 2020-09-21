@@ -1,11 +1,18 @@
-Escribir una función que tome un carácter y devuelva True si es una vocal, de lo contrario devuelve False
-#! /usr/bin/env python
-# -*- coding: utf-8 -*-
-
-def es_vocal (x):
-    if x == "a" or x == "e" or x == "i" or x == "o" or x == "u":
-        return True
-    elif x == "A" or x == "E" or x == "I" or x == "O" or x == "U":
-        return True
-    else:
-        return False
+Determinar el mayor de dos números ‘a’ y ‘b’
+//Algoritmo que determina el mayor de dos números 'a' y 'b'. Desarrollado por RPC
+Proceso mayor_que //proceso mayor_que
+Escribir "Algoritmo para calcular cual numero de a y b es mayor";
+Escribir "Introduzca el valor de a: " //muestra en pantalla la
+instrucción
+Leer a; //ingresa por teclado el valor de 'a'
+Escribir "Introduzca el valor de b: "
+Leer b;
+a<-a; // a=a; si escribieramos a=0, la comparación sería entre ceros
+(error)
+b<-b; // idem al anterior
+Si a>b Entonces //Condicional Si (If) a>b Entonces que?
+Escribir "El número a=", " ", a, "es mayor que b=", " ", b;
+Sino
+Escribir "El número a=", " ", a, "es menor que b=", " ", b;
+FinSi //Fin de la condicional
+FinProceso //Fin del proceso
